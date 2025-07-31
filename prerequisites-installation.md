@@ -71,8 +71,11 @@ Power on the Windows 11 virtual machine and proceed with the setup steps until y
 
 ![attachments/windows-vm.PNG](attachments/windows-vm.PNG)
 
-Within the VM (osticket-vm), download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
+2.3 Within the VM (osticket-vm), download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
 We will use the files in this folder to install osTicket and some of the dependencies.
 
+![attachments/unzip.png](attachments/unzip.png)
+
+![attachments/unzip2.png](attachments/unzip2.png)
 
 ## Step 3:
