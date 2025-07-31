@@ -6,15 +6,6 @@ This tutorial outlines the prerequisites aand installation of the help desk tick
 *NOTE: Ensure that you are logged into your Microsoft Azure account, have a subscription active and have already made a resource group for your virtual machine.*
 
 ---
-
-## Table of Contents
-- Create a new Virtual Machine within Azure
-- Installing osTicket prerequisites
-- Installing osTicket
-- Configuring osTicket
-- Exploring osTicket as a Help Desk Professional
-
----
 ### Step 1: Create a new Virtual Machine within Azure
 
 1.1 Search for "Virtual Machine" in the search bar, or navigate to the Virtual Machine section back on the home page.
@@ -79,3 +70,9 @@ Another windows prompt will appear, click **Yes** to proceed
 Power on the Windows 11 virtual machine and proceed with the setup steps until you reach the Windows Desktop.
 
 ![attachments/windows-vm.PNG](attachments/windows-vm.PNG)
+
+Within the VM (osticket-vm), download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
+We will use the files in this folder to install osTicket and some of the dependencies.
+
+
+## Step 3:
