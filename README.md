@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-# osTicket (Help Desk Ticketing System)
+# osTicket: Installation, Configuration, and Ticket Workflow
 
 This lab will outline the end to end deployment and application of osTicket, an open source ticketing system.
 
