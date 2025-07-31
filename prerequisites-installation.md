@@ -78,4 +78,4 @@ Another windows prompt will appear, click **Yes** to proceed
 
 Power on the Windows 11 virtual machine and proceed with the setup steps until you reach the Windows Desktop.
 
-![attachments/window-vm.PNG](attachments/window-vm.PNG)
+![attachments/windows-vm.PNG](attachments/windows-vm.PNG)
