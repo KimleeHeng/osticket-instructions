@@ -7,7 +7,15 @@ This tutorial outlines the prerequisites aand installation of the help desk tick
 
 ---
 
-### Step 1: Create a new Virtual Machine within Microsoft Azure
+## Table of Contents
+- Create a new Virtual Machine within Azure
+- Installing osTicket prerequisites
+- Installing osTicket
+- Configuring osTicket
+- Exploring osTicket as a Help Desk Professional
+
+---
+### Step 1: Create a new Virtual Machine within Azure
 
 1.1 Search for "Virtual Machine" in the search bar, or navigate to the Virtual Machine section back on the home page.
 
