@@ -62,19 +62,19 @@ Click **Create** once more to initialize deployment of your virtual machine.
 
 Use the Windows 11 Virtual Machine's IP address to log in through Remote Desktop
 
-![attachments/public-ip.PNG](attachments/public-ip.PNG)
+![attachments/public-ip.png](attachments/public-ip.png)
 
-![attachments/rdp.PNG](attachments/rdp.PNG)
+![attachments/rdp.png](attachments/rdp.png)
 
 2.2 A small windows security prompt will ask you to enter your credentials to log into the virtual machine
 
 - We will use the username and password that we made when creating the virtual machines **(labuser/Cyberlab123!)**
 
-![attachments/pw.PNG](attachments/pw.PNG)
+![attachments/pw.png](attachments/pw.png)
 
 Another windows prompt will appear, click **Yes** to proceed
 
-![attachments/yes.PNG](attachments/yes.PNG)
+![attachments/yes.png](attachments/yes.png)
 
 Power on the Windows 11 virtual machine and proceed with the setup steps until you reach the Windows Desktop.
 
