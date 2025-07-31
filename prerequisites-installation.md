@@ -27,8 +27,8 @@ This tutorial outlines the prerequisites aand installation of the help desk tick
 
 1.3 Fill out the following information:
 - Subscription - Select your current and active subscription
-- Resource Group - Select your resource group
-- Virtual machine name - For this lab, we will name our VM:  **"Windows-VM"**
+- Resource Group - Select your resource group/make a new one
+- Virtual machine name - For this lab, we will name our VM:  **"osticket-vm"**
 - Region - Select your current region. For this lab, we will select **"(US) East US"**
 - Availablity Zone - Select **"Zone 3"**
 - Image - Select **"Windows 11 Pro, version 24H2 - x64 Gen2"**
@@ -55,3 +55,27 @@ Click **Create** once more to initialize deployment of your virtual machine.
 ![attachments/create-vm.png](attachments/create-vm.png)
 
 **A Windows 11 Virtual Machine has now successfully been created.**
+
+## Step 2: Use Remote Desktop to connect to your Windows 11 Virtual Machine
+
+2.1 On your Virtual Machine page within Azure, you will be able to see the designated Public IP Address for each virtual machine created.
+
+Use the Windows 11 Virtual Machine's IP address to log in through Remote Desktop
+
+![attachments/public-ip.PNG](attachments/public-ip.PNG)
+
+![attachments/rdp.PNG](attachments/rdp.PNG)
+
+2.2 A small windows security prompt will ask you to enter your credentials to log into the virtual machine
+
+- We will use the username and password that we made when creating the virtual machines **(labuser/Cyberlab123!)**
+
+![attachments/pw.PNG](attachments/pw.PNG)
+
+Another windows prompt will appear, click **Yes** to proceed
+
+![attachments/yes.PNG](attachments/yes.PNG)
+
+Power on the Windows 11 virtual machine and proceed with the setup steps until you reach the Windows Desktop.
+
+![attachments/window-desktop.PNG](attachments/window-desktop.PNG)
