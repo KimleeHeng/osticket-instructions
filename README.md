@@ -8,9 +8,6 @@ This lab will outline the end to end deployment and application of osTicket, an 
 
 We'll review the prerequisites, guide you through the installation and configuration process, and simulate real-world help desk scenarios
 
-# osTicket - Prerequisites and Installation
-This tutorial outlines the prerequisites aand installation of the help desk ticketing system: osTicket.
-
 ## Prerequisites Needed
 - Microsoft Azure Subscription (Free/Pay as you go)
   
