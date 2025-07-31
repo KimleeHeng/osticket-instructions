@@ -1,3 +1,6 @@
+# osTicket - Prerequisites and Installation
+This tutorial outlines the prerequisites aand installation of the help desk ticketing system: osTicket.
+
 ## Installation Steps
 
 *NOTE: Ensure that you are logged into your Microsoft Azure account, have a subscription active and have already made a resource group for your virtual machine.*
