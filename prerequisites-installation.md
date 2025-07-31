@@ -38,7 +38,7 @@ This tutorial outlines the prerequisites aand installation of the help desk tick
 
 Create your **Administrator account**.
 
-- For this lab, we will use **labuser** as the username and **Cyberlab123!** as the password.
+- For this lab, we will use **labuser** as the username and **osTicketPassword1!** as the password.
 
 Check off the Licensing check box
 
