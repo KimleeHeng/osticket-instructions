@@ -42,27 +42,11 @@ Create your **Administrator account**.
 
 Check off the Licensing check box
 
-Click **Next: Disks>**, and then **Next: Networking >**
+Click **Review + Create** to proceed
 
 ![attachments/7-admin-settings.png](attachments/7-admin-settings.png)
 
-1.4 Click **Create new** under Virtual Network. A window to create a virtual network should pop up
-
-![attachments/8-vnet.png](attachments/8-vnet.png)
-
-Create your **Virtual Network**
-
-- For this lab, we will use **Lab-VNet** as the name of our virtual network
-
-Click **OK** to proceed
-
-![attachments/9-vnet-pt2.png](attachments/9-vnet-pt2.png)
-
-Back on the Virtual Machine page, Click **Review + Create** to proceed  
-
-![attachments/10-review-create.png](attachments/10-review-create.png)
-
-1.5 Confirm that **Validation passed** for your virtual machine.
+1.3 Confirm that **Validation passed** for your virtual machine.
 
 Review the the information you inputted, ensuring everything is correct.
 
