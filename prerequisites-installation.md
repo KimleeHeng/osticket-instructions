@@ -68,9 +68,9 @@ Use the Windows 11 Virtual Machine's IP address to log in through Remote Desktop
 
 2.2 A small windows security prompt will ask you to enter your credentials to log into the virtual machine
 
-- We will use the username and password that we made when creating the virtual machines **(labuser/Cyberlab123!)**
+- We will use the username and password that we made when creating the virtual machines **(labuser/osTicketPassword1!)**
 
-![attachments/pw.png](attachments/pw.png)
+![attachments/pw.PNG](attachments/pw.PNG)
 
 Another windows prompt will appear, click **Yes** to proceed
 
@@ -78,4 +78,4 @@ Another windows prompt will appear, click **Yes** to proceed
 
 Power on the Windows 11 virtual machine and proceed with the setup steps until you reach the Windows Desktop.
 
-![attachments/window-desktop.PNG](attachments/window-desktop.PNG)
+![attachments/window-vm.PNG](attachments/window-vm.PNG)
