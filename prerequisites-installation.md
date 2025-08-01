@@ -78,4 +78,31 @@ We will use the files in this folder to install osTicket and some of the depende
 
 ![attachments/unzip2.png](attachments/unzip2.png)
 
-## Step 3:
+## Step 3: Install / Enable IIS in Windows with CGI
+
+IIS (Internet Information Systems) is a web server software for hosting websites and web applications on Windows systems. For this lab we will be enabling IIS using CGI (Common Gateway Interface) to bridge the web server and our application, osTicket. This is essential in order to host our application.
+
+3.1 Open up Control Panel from the Windows Start Menu
+
+![attachments/control-panel.png](attachments/control-panel.png)
+
+From here navigate through the following pathway: **Control Panel\Programs\Programs and Features**
+
+Then on the left hand side, click **Turn Windows features on or off**
+
+![attachments/programs-and-features.png](attachments/programs-and-features.png)
+
+Scroll down and check off the following features
+
+- Internet Information Systems
+- CGI (_Internet Information Systems > Application > CGI_)
+
+Then click **OK**
+
+![attachments/select.png](attachments/select.png)
+
+It will now install the web server.
+
+To test if it works, open a new tab in Microsoft Edge 
+
+
