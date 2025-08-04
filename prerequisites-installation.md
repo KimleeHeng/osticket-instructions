@@ -92,7 +92,7 @@ Then on the left hand side, click **Turn Windows features on or off**
 
 ![attachments/programs-and-features.png](attachments/programs-and-features.png)
 
-Scroll down and check off the following features
+3.2 Scroll down and check off the following features
 
 - Internet Information Systems
 - CGI (_Internet Information Systems > Application > CGI_)
@@ -103,10 +103,37 @@ Then click **OK**
 
 It will now install the web server.
 
-To test if it works, open a new tab in Microsoft Edge and enter **127.0.0.1** into the search bar. A default IIS start page should pop up that looks like this.
+3.3 To test if it works, open a new tab in Microsoft Edge and enter **127.0.0.1** into the search bar. A default IIS start page should pop up that looks like this.
 
 127.0.0.1 is a special loopback address used to refer to the local machine you are using.
 
 ![attachments/IIS.PNG](attachments/IIS.PNG)
+
+## Step 4: Install PHP Manager for IIS
+
+PHP is a backend, server scripting language used to create web applications. osTicket uses PHP, so we will install it.
+
+Go to the following folder we unzipped from Step 2 located on your desktop: **osTicket-Installation-Files**
+
+Install PHP Manager: **PHPManagerForIIS_V1.5.0**
+
+![attachments/folder.png](attachments/folder.png)
+
+Proceed with the following steps:
+
+![attachments/php1.png](attachments/php1.png)
+![attachments/php2.png](attachments/php2.png)
+![attachments/php3.png](attachments/php3.png)
+
+From the same folder (osTicket-Installation-Files), run the IIS URL Rewrite Module installer entitled: **rewrite_amd64_en-US**
+
+The IIS URL Rewrite Module is a prerequsite component to install. It is ued to all URL rewriting functionality within IIS, which is essential for many modern PHP applications like osTicket.
+
+![attachments/folder2.png](attachments/folder2.png)
+
+Proceed with the following steps:
+
+![attachments/iis-prereq.png](attachments/iis-prereq.png)
+![attachments/iis-prereq2.png](attachments/iis-prereq2.png)
 
 
