@@ -144,5 +144,17 @@ Creating a dedicated directory will help organize the server file system and mak
 
 ![attachments/phpfolder.png](attachments/phpfolder.png)
 
+## Step 6: From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
 
+We will be extracting the files of PHP 7.3.8 into C:\PHP. This specific PHP version (7.3.8) is chosen because it's compatible with the version of osTicket we are using.
+
+![attachments/extract.png](attachments/extract.png)
+![attachments/extract2.png](attachments/extract2.png)
+![attachments/extract3.png](attachments/extract3.png)
+![attachments/extract4.png](attachments/extract4.png)
+
+
+## Step 7: From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
+
+## Step 8: From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 
