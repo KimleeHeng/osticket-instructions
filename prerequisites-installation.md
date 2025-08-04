@@ -163,3 +163,18 @@ We will be installing Microsoft Visual C++ Redistributable. We are installing th
 
 ## Step 8: From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 
+MYSQL is an open‑source relational database management system that powers osTicket’s backend. It will store all the tickets, users, settings, and logs within a database.
+
+Proceed with the following steps:
+
+![attachments/mysql1.png](attachments/mysql1.png)
+![attachments/mysql2.png](attachments/mysql2.png)
+![attachments/mysql3.png](attachments/mysql3.png)
+![attachments/mysql4.png](attachments/mysql4.png)
+![attachments/mysql5.png](attachments/mysql5.png)
+![attachments/mysql6.png](attachments/mysql6.png)
+![attachments/mysql7.png](attachments/mysql7.png)
+![attachments/mysql8.png](attachments/mysql8.png)
+
+
+
