@@ -197,9 +197,16 @@ Search for IIS within the Windows search menu. Right click, and run as Administr
 
 This step registers PHP with IIS so the web server knows it’s installed and where to find it on our computer.
 
+Proceed with the following steps:
+
 ![attachments/iis1.png](attachments/iis1.png)
+
 ![attachments/iis2.png](attachments/iis2.png)
+
 ![attachments/iis3.png](attachments/iis3.png)
+
+Select the application file: **php-cgi**
+
 ![attachments/iis4.png](attachments/iis4.png)
 ![attachments/iis5.png](attachments/iis5.png)
 
