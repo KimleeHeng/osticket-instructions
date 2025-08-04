@@ -156,5 +156,10 @@ We will be extracting the files of PHP 7.3.8 into C:\PHP. This specific PHP vers
 
 ## Step 7: From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
 
+We will be installing Microsoft Visual C++ Redistributable. We are installing this because parts of osTicket’s installation, specifically PHP and some of its extensions depend on Microsoft Visual C++ runtime libraries to function correctly on Windows.
+
+![attachments/microsoft.png](attachments/microsoft.png)
+![attachments/microsoft2.png](attachments/microsoft2.png)
+
 ## Step 8: From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 
