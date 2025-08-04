@@ -187,5 +187,25 @@ In real world scenarios, a more secure password should be used. For this lab pur
 ![attachments/mysql10.png](attachments/mysql10.png)
 ![attachments/mysql11.png](attachments/mysql11.png)
 
+## Step 9: Open IIS as an Admin
+
+Search for IIS within the Windows search menu. Right click, and run as Administrator.
+
+![attachments/iis-start.png](attachments/iis-start.png)
+
+## Step 10: Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+
+This step registers PHP with IIS so the web server knows it’s installed and where to find it on our computer.
+
+![attachments/iis1.png](attachments/iis1.png)
+![attachments/iis2.png](attachments/iis2.png)
+![attachments/iis3.png](attachments/iis3.png)
+![attachments/iis4.png](attachments/iis4.png)
+![attachments/iis5.png](attachments/iis5.png)
+
+## Step 11: Reload IIS (Open IIS, Stop and Start the server)
+
+
+
 
 
