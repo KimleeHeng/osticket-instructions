@@ -103,6 +103,10 @@ Then click **OK**
 
 It will now install the web server.
 
-To test if it works, open a new tab in Microsoft Edge 
+To test if it works, open a new tab in Microsoft Edge and enter **127.0.0.1** into the search bar. A default IIS start page should pop up that looks like this.
+
+127.0.0.1 is a special loopback address used to refer to the local machine you are using.
+
+![attachments/IIS.PNG](attachments/IIS.PNG)
 
 
