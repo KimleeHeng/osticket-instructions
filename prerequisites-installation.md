@@ -183,6 +183,7 @@ In real world scenarios, a more secure password should be used. For this lab pur
 **NOTE: DO NOT MESS UP THIS PASSWORD AND REMEMBER IT FOR FUTURE REFERENCE**
 
 ![attachments/mysql9.png](attachments/mysql9.png)
+
 ![attachments/mysql10.png](attachments/mysql10.png)
 ![attachments/mysql11.png](attachments/mysql11.png)
 
