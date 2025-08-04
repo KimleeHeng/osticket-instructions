@@ -115,7 +115,7 @@ PHP is a backend, server scripting language used to create web applications. osT
 
 Go to the following folder we unzipped from Step 2 located on your desktop: **osTicket-Installation-Files**
 
-Install PHP Manager: **PHPManagerForIIS_V1.5.0**
+4.1 Install PHP Manager: **PHPManagerForIIS_V1.5.0**
 
 ![attachments/folder.png](attachments/folder.png)
 
@@ -125,7 +125,7 @@ Proceed with the following steps:
 ![attachments/php2.png](attachments/php2.png)
 ![attachments/php3.png](attachments/php3.png)
 
-From the same folder (osTicket-Installation-Files), run the IIS URL Rewrite Module installer entitled: **rewrite_amd64_en-US**
+4.2 From the same folder (osTicket-Installation-Files), Install the IIS URL Rewrite Module: **rewrite_amd64_en-US**
 
 The IIS URL Rewrite Module is a prerequsite component to install. It is ued to all URL rewriting functionality within IIS, which is essential for many modern PHP applications like osTicket.
 
@@ -135,5 +135,14 @@ Proceed with the following steps:
 
 ![attachments/iis-prereq.png](attachments/iis-prereq.png)
 ![attachments/iis-prereq2.png](attachments/iis-prereq2.png)
+
+## Step 5: Create the directory C:\PHP
+
+In File Explorer, navigate to the C Drive and create a folder named **PHP**
+
+Creating a dedicated directory will help organize the server file system and make it easier to manage PHP related files.
+
+![attachments/phpfolder.png](attachments/phpfolder.png)
+
 
 
