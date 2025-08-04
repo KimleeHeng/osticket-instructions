@@ -176,5 +176,15 @@ Proceed with the following steps:
 ![attachments/mysql7.png](attachments/mysql7.png)
 ![attachments/mysql8.png](attachments/mysql8.png)
 
+When prompted to set the root password, enter **root** into both entry lines.
+
+In real world scenarios, a more secure password should be used. For this lab purpose, we will use **root** as the password.
+
+**NOTE: DO NOT MESS UP THIS PASSWORD AND REMEMBER IT FOR FUTURE REFERENCE**
+
+![attachments/mysql9.png](attachments/mysql9.png)
+![attachments/mysql10.png](attachments/mysql10.png)
+![attachments/mysql11.png](attachments/mysql11.png)
+
 
 
