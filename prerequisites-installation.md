@@ -212,6 +212,27 @@ Select the application file: **php-cgi**
 
 ## Step 11: Reload IIS (Open IIS, Stop and Start the server)
 
+After registering PHP, we will restart/reload IIS.
+
+Navigate to the left hand side and select **osTicket**. Now on the right hand side, click **Restart**.
+
+![attachments/restart.png](attachments/restart.png)
+
+## Step 12: Install osTicket v1.15.8
+
+Now we are going to install osTicket version 1.15.8.
+
+12.1 From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+
+![attachments/upload.png](attachments/upload.png)
+
+![attachments/upload2.png](attachments/upload2.png)
+
+12.2 Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+
+![attachments/rename.png](attachments/rename.png)
+![attachments/rename2.png](attachments/rename2.png)
+
 
 
 
