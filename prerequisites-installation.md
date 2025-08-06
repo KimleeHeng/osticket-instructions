@@ -273,7 +273,7 @@ Now refresh osTicket, and you will see that more extensions have been enabled.
 
 We will now rename and configure some files within osTicket. This is crucial as it secures and personlizes osTicket's core setttings before it goes live.
 
-14.1 In File Explorer, navigate to _c:\inetpub\wwwroot\osTicket\include_
+In File Explorer, navigate to _c:\inetpub\wwwroot\osTicket\include_
 
 Rename the file **"ost-sampleconfig.php"** to **"ost-config.php"**.
 
@@ -281,7 +281,7 @@ Rename the file **"ost-sampleconfig.php"** to **"ost-config.php"**.
 
 ![attachments/renaming2.png](attachments/renaming2.png)
 
-14.2 Now we will configure the permissions. Right click the file and click properties
+Now we will configure the permissions. Right click the file and click properties
 
 ![attachments/properties.png](attachments/properties.png)
 
