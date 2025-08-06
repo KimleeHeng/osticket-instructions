@@ -281,13 +281,41 @@ Rename the file **"ost-sampleconfig.php"** to **"ost-config.php"**.
 
 ![attachments/renaming2.png](attachments/renaming2.png)
 
-14.2 After, right click the file and click properties
+14.2 Now we will configure the permissions. Right click the file and click properties
 
 ![attachments/properties.png](attachments/properties.png)
 
 Navigate to **Security > Advanced**
 
 ![attachments/security.png](attachments/security.png)
+
+Click **Disable inheritance** and proceed to remove all permissions.
+
+![attachments/disable.png](attachments/disable.png)
+
+![attachments/remove.png](attachments/remove.png)
+
+The permissions have all been removed.
+
+![attachments/no-permissions.PNG](attachments/no-permissions.PNG)
+
+We will now assign new permissions. Click **Add > Select a principle**
+
+![attachments/add.PNG](attachments/add.PNG)
+![attachments/principle.PNG](attachments/principle.PNG)
+
+Here we will enable permissions for everyone. This is typically not ideal for real-world scenarios, as this would bring up security concerns. For this lab's purpose, we will proceed with this for simplicity.
+
+![attachments/everyone.png](attachments/everyone.png)
+
+Check off **Full Control**, then click **OK**
+
+![attachments/full-control.png](attachments/full-control.png)
+
+Click **Apply**, then **OK**.
+
+![attachments/apply.png](attachments/apply.png)
+
 
 
 
