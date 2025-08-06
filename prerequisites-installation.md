@@ -233,6 +233,70 @@ Now we are going to install osTicket version 1.15.8.
 ![attachments/rename.png](attachments/rename.png)
 ![attachments/rename2.png](attachments/rename2.png)
 
+12.3 Reload IIS (Open IIS, Stop and Start the server)
+
+![attachments/restart.png](attachments/restart.png)
+
+12.4 Navigate to sites -> Default -> osTicket. On the right, click **“Browse *:80 http”**
+
+![attachments/site.png](attachments/site.png)
+
+This will direct you to a new tab with an instance of osTicket.
+
+![attachments/osticket.PNG](attachments/osticket.PNG)
+
+## Step 13: Enable PHP Extensions
+
+Note on the osTicket page that there are a few extensions that aren't enabled. We will enable them by doing the following:
+
+13.1 Go back to IIS, and navigate to **Sites > Default Web Site > osTicket**, then double **PHP Manager**.
+
+![attachments/osphp.png](attachments/osphp.png)
+
+Click **Enable or disable an extension**.
+
+![attachments/osphp2.png](attachments/osphp2.png)
+
+Enable the following by right clicking the extension and select **enable**:
+
+- php_imap.dll
+- php_intl.dll
+- php_opcache.dll
+
+![attachments/enable.png](attachments/enable.png)
+
+Now refresh osTicket, and you will see that more extensions have been enabled.
+
+![attachments/osextension.png](attachments/osextension.png)
+
+## Step 14: Rename and Configure osTicket Configuration File
+
+We will now rename and configure some files within osTicket. This is crucial as it secures and personlizes osTicket's core setttings before it goes live.
+
+14.1 In File Explorer, navigate to _c:\inetpub\wwwroot\osTicket\include_
+
+Rename the file **"ost-sampleconfig.php"** to **"ost-config.php"**.
+
+![attachments/renaming1.png](attachments/renaming1.png)
+
+![attachments/renaming2.png](attachments/renaming2.png)
+
+14.2 After, right click the file and click properties
+
+![attachments/properties.png](attachments/properties.png)
+
+Navigate to **Security > Advanced**
+
+![attachments/security.png](attachments/security.png)
+
+
+
+
+
+
+
+
+
 
 
 
