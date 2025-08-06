@@ -301,8 +301,8 @@ The permissions have all been removed.
 
 We will now assign new permissions. Click **Add > Select a principle**
 
-![attachments/add.PNG](attachments/add.PNG)
-![attachments/principle.PNG](attachments/principle.PNG)
+![attachments/add.png](attachments/add.png)
+![attachments/principle.png](attachments/principle.png)
 
 Here we will enable permissions for everyone. This is typically not ideal for real-world scenarios, as this would bring up security concerns. For this lab's purpose, we will proceed with this for simplicity.
 
