@@ -318,7 +318,7 @@ Click **Apply**, then **OK**.
 
 ## Step 15: Continue Setting up osTicket in the browser
 
-Back on osTicket, click **continue**
+Back on osTicket, click **continue**.
 
 Under System Settings, fill out the following:
 
@@ -339,13 +339,54 @@ Under Admin Settings, fill out the following:
 
 ## Step 16: Install HeidiSQL
 
-From the folder, osTicket-Installation-Files, install HeidiSQL
+From the folder, osTicket-Installation-Files, install HeidiSQL.
 
 ![attachments/heidi.png](attachments/heidi.png)
 
-Proceed by continuing through the installation steps by clicking next to install. At the end of the installation, ensure to check off **Launch HeidiSQL** for the next steps
+Proceed by continuing through the installation steps by clicking next to install. At the end of the installation, ensure to check off **Launch HeidiSQL** for the next steps.
 
 ![attachments/run-heidi.png](attachments/run-heidi.png)
+
+Once HeidiSQL Service Manager open up, click **New**.
+
+![attachments/heidisql1.png](attachments/heidisql1.png)
+
+Enter the password: **root**, then click **open**.
+
+![attachments/heidisql2.png](attachments/heidisql2.png)
+
+We have now created and connected to our session. We will now create a database called **osTicket**.
+
+Proceed with the following steps: On the left hand side, right click **Unnamed**, then **Create new > Database**.
+
+![attachments/database.png](attachments/database.png)
+
+Name the database: **osTicket**. Then click **OK**.
+
+![attachments/create-database.png](attachments/create-database.png)
+
+Back on the browser, navigate to Database settings and enter the following information:
+
+- MySQL Database: **osTicket**
+- mySQL Username: **root**
+- MySQL Password: **root**
+
+Click Install Now
+
+![attachments/database-settings.png](attachments/database-settings.png)
+
+osTicket has now been successfully installed. It is now ready to be used.
+
+![attachments/install-complete.PNG](attachments/install-complete.PNG)
+
+## Final Notes
+
+Congratulations, hopefully it is installed with no errors!
+
+This is the help desk login page: http://localhost/osTicket/scp/login.php
+
+This is the End Users osTicket URL: http://localhost/osTicket/ 
+
 
 
 
