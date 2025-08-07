@@ -383,7 +383,7 @@ osTicket has now been successfully installed. It is now ready to be used.
 
 Congratulations, hopefully it is installed with no errors!
 
-This is the help desk login page: http://localhost/osTicket/scp/login.php
+This is the help desk login page for admin/analyst: http://localhost/osTicket/scp/login.php
 
 This is the End Users osTicket URL: http://localhost/osTicket/ 
 
