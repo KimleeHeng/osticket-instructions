@@ -343,7 +343,7 @@ From the folder, osTicket-Installation-Files, install HeidiSQL
 
 ![attachments/heidi.png](attachments/heidi.png)
 
-Proceed by continuing through the installation steps by clicking next to install. At the end of the installation, ensure to check off ** Launch HeidiSQL** for the next steps
+Proceed by continuing through the installation steps by clicking next to install. At the end of the installation, ensure to check off **Launch HeidiSQL** for the next steps
 
 ![attachments/run-heidi.png](attachments/run-heidi.png)
 
