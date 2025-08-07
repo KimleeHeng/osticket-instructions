@@ -316,6 +316,40 @@ Click **Apply**, then **OK**.
 
 ![attachments/apply.png](attachments/apply.png)
 
+## Step 15: Continue Setting up osTicket in the browser
+
+Back on osTicket, click **continue**
+
+Under System Settings, fill out the following:
+
+- Helpdesk Name
+- Default Email
+
+![attachments/system-settings.png](attachments/system-settings.png)
+
+Under Admin Settings, fill out the following:
+
+- First Name
+- Last Name
+- Email Address (Different from System Setting's Email)
+- Username: **adminuser**
+- Password: **Password1**
+
+![attachments/admin-user.png](attachments/admin-user.png)
+
+## Step 16: Install HeidiSQL
+
+From the folder, osTicket-Installation-Files, install HeidiSQL
+
+![attachments/heidi.png](attachments/heidi.png)
+
+Proceed by continuing through the installation steps by clicking next to install. At the end of the installation, ensure to check off ** Launch HeidiSQL** for the next steps
+
+![attachments/run-heidi.png](attachments/run-heidi.png)
+
+
+
+
 
 
 
